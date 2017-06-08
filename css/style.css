@@ -1,0 +1,346 @@
+﻿/*
+**********************************************************
+****|| Template name: Nix Events                         ||
+****|| Designer: Jennifer Sánchez Ureta                  ||
+****|| Page Site: Windysu url(https://github.com/windysu)||
+****|| © All rights are Stricly Reserved (2017)          ||
+**********************************************************
+*/
+
+
+/*General*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-bottom: 16px;
+font-weight: normal;
+line-height: 1;
+font-family:"Playfair Display", Arial;
+}
+h1 {
+font-size: 40px
+}
+h2 {
+font-size: 30px
+}
+h3 {
+font-size: 20px
+}
+h4 {
+font-size: 16px
+}
+h5 {
+font-size: 14px
+}
+h6 {
+font-size: 12px
+}
+
+
+ul {
+list-style-type: none;
+}
+
+* {
+box-sizing: border-box;
+}
+
+hr{
+border-radius: 2px;
+width: 500px;
+}
+
+p{
+text-align: center;
+font-size: 19px;
+}
+
+
+
+body {
+color: #635647;
+font-size: 13px;
+font-family: 'open sans';
+line-height: 25px;
+font-weight: 500;
+background-image: url("../images/background.png");
+background-color: #fff;
+background-size: inherit;
+background-repeat: no-repeat;
+margin: 0;
+padding: 0;
+letter-spacing: 0.3px;
+}
+
+
+
+
+a:link,
+a:visited {
+color:black;
+text-decoration: underline;
+outline: none;
+transition: all 0.3s ease;
+}
+a:hover {
+color: #4d0026;
+text-decoration: none;
+outline: none;
+transition: all 0.3s ease;
+}
+
+#content-wrapper {
+float: left;
+width: 100%;
+margin-top: 30px;
+}
+
+.margin-1200 {
+width: 1200px;
+margin: auto;
+}
+
+/*Header*/
+#header-wrapper {
+width: 100%;
+display: table;
+}
+
+.title {
+font-size: 55px;
+margin: 0;
+color: #494949;
+font-weight: 400;
+margin: 22px 0px 19px 0px;
+letter-spacing: 2px;
+font-family: "Montserrat",Open Sans,Sans-serif;
+}
+.logo h1 a {
+color: #494949;
+text-decoration: none;
+font-weight:700;
+text-transform:uppercase;
+}
+
+.logo h1 {
+margin:0px;
+}
+.logo {
+padding: 16px 40px 27px 40px;
+margin: 20px 0px;
+float: left;
+width: 36%;
+text-align: center;
+border-left: 1px solid #d2d2d2;
+border-right: 1px solid #d2d2d2;
+}
+.Header .description {
+margin: 1px;
+padding: 0 2px;
+font-size: 14px;
+}
+
+
+/*MENU*/
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+nav ul li {
+display:inline-block;
+width: 237px;
+
+}
+nav ul li a:link {
+display: inline-block;
+padding: 15px 25px;
+text-transform: uppercase;
+letter-spacing: 1px;
+position: relative;
+text-decoration: none;
+color: #fff;
+width:100%;
+text-align: center;
+}
+nav ul li a {
+color: #fff!important;
+}
+nav a:hover {
+background-color: #4d0026;
+}
+/* Esconder menu deslizable */
+nav ul ul {
+display: none;
+position: absolute;
+z-index: 1000;
+background: black;
+}
+/* Mostrar menu cuando pasemos raton encima */
+nav ul li:hover > ul {
+display:inherit;
+}
+/* Menu deslizable en lista */
+nav ul ul li {
+min-width:170px;
+float:none;
+display:list-item;
+position: relative;
+}
+nav ul ul a:hover {
+background-color: #4d0026;
+}
+
+.menu {
+width: 1200px;
+margin: auto;
+z-index: 99999;
+background: #660033;
+}
+
+/*REDES SOCIALES*/
+.social-buttons {
+float: left;
+width: 30%;
+padding: 62px;
+}
+.social-buttons ul li a:hover {
+background: #eee;
+}
+.social-buttons ul {
+margin: 0;
+padding: 0;
+}
+.social-buttons ul li {
+display: block;
+float: left;
+margin-right: 2px;
+}
+.social-buttons ul li a {
+display: inline-block;
+width: 41px;
+height: 41px;
+line-height: 38px;
+text-align: center;
+border: 2px solid #d5d5d5;
+color: #888;
+border-radius: 20px;
+margin: 2px;
+background-color: #fff;
+}
+
+button{
+	background: transparent;
+	border: none;
+	vertical-align:middle;
+	text-align:center;
+	margin-left: -7px;
+}
+
+/*SEARCH*/
+.search-bar {
+float: right;
+width: 23%;
+border: 2px solid #d5d5d5;
+border-radius: 20px;
+margin: 62px;
+color: #888;
+background-color: #fff;
+}
+.search-bar input {
+border: 0;
+padding: 10px;
+background: none;
+font-family: "Montserrat",Open Sans,Sans-serif;
+width: 222px;
+border-right: 2px solid #d5d5d5;
+margin-right: 13px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+background: #F9F9F9;
+}
+input:focus {
+outline: none;
+}
+
+form {
+margin-bottom: 0em;
+}
+
+figure{
+margin: 0px;
+}
+
+.form-dd{
+width: 40%;
+border: 1px solid #d5d5d5;
+border-radius: 5px;
+margin: 0px;
+padding-left: 10px;
+color: #888;
+background-color: #fff;
+}
+.form-dd input {
+border: 6px;
+padding: 20px;
+background: none;
+font-family: "Montserrat",Open Sans,Sans-serif;
+width: 403px;
+border-right: 2px solid #d5d5d5;
+margin-right: 13px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+background: #F9F9F9;
+}
+
+/*SLIDER*/
+
+.slide{
+    border: ;
+    width: 1200px;
+    height: 530px;
+    margin: 0px;
+    border-radius: ;
+    box-shadow: ;
+    position: relative;
+}
+
+.slide img{
+    width: 1200px;
+    height: 530px;
+    position: absolute;
+}
+
+.slide .img2, .slide .img3, .slide .img4 {
+    display: none;
+}
+
+
+/*FOOTER*/
+
+#footer {
+    float: left;
+    width: 100%;
+    background: #444444;
+    padding: 30px 0px;
+    text-align: left;
+	padding-bottom: 0px;
+}
+#footer p {
+    color: #fff;
+    font-style: italic;
+	font-size: 15px;
+}
+
+.footer_columna{
+	float: left;
+    width: 33,3%;
+    margin-right: 25px;
+    color: #fff;
+	box-sizing: border-box;
+}

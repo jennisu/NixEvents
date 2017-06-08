@@ -1,0 +1,29 @@
+body{
+margin: 0% 12%;
+}
+
+.personalbox{
+width: 300px;
+float: left;
+text-align: center;
+margin-bottom: 100px;
+}
+
+.design{
+border-radius: 20px;
+}
+
+.design:hover{
+opacity: 0.5;
+}
+#texto{
+font-family: 'open sans';
+text-align: center;
+font-size: 19px;
+color: #635647;
+text-transform: uppercase;
+}
+
+#personal{
+text-align: center;
+}

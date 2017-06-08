@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="personal.xsl" type="text/xsl"?>
+<personal>
+  
+  <persona>
+    <img>../images/personal/personal1.jpg</img>
+    <desc>Adela Bonito</desc>
+  </persona>
+  
+  <persona>
+    <img>../images/personal/personal2.jpg</img>
+    <desc>Darian Duques</desc>
+  </persona>
+  
+  <persona>
+    <img>../images/personal/personal3.jpg</img>
+    <desc>Jane Diarisme</desc>
+  </persona>
+  
+  <persona>
+    <img>../images/personal/personal4.jpg</img>
+    <desc>Carlota Mendez</desc>
+  </persona>
+  
+  <persona>
+    <img>../images/personal/personal5.jpg</img>
+    <desc>Neidaro Sevena</desc>
+  </persona>
+  
+    <persona>
+    <img>../images/personal/personal6.jpg</img>
+    <desc>Marina Del Campo</desc>
+  </persona>
+  
+</personal>
